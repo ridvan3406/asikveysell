@@ -1,3 +1,21 @@
+body{
+    font-family:sArial, Helvetica, sans-serif serif;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+p{
+    font-size: 18px;
+}
+#first_paragraph {
+    color: brown;
+    font-weight: bold;
+}
+#first-heading{
+    
+}
 .green{
     color:hsl(128, 91%, 45%)
 }
@@ -12,9 +30,7 @@
 
 }
 
-#first_paragraph {
-    color: brown;
-}
+
 
 p{
     color: #444444;
