@@ -1,3 +1,37 @@
-h3{
-    color:#06f01a ;
+.green{
+    color:hsl(128, 91%, 45%)
 }
+
+.large_font{
+    font-size: 42px;
+}
+
+#navigation{
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+}
+
+#first_paragraph {
+    color: brown;
+}
+
+p{
+    color: #444444;
+}
+
+h1{
+    font-size:42px;
+    color: indigo;
+}
+
+h1.green{
+    color: red;
+}
+
+#first_heading{
+    color: red;
+}
+
+/* specificity siralamasi */
+/* inlin-style>#heading>h1.green>.green>h1 */
