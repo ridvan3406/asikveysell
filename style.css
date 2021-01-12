@@ -1,53 +1,73 @@
-body{
-    font-family:sArial, Helvetica, sans-serif serif;
-    
-}
-h1,h2,h3,h4,h5,h6{
+body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-p{
+  }
+  
+  p {
     font-size: 18px;
-}
-#first_paragraph {
-    color: brown;
+  }
+  
+  #first_paragraph {
+    color:#FE4A49;
     font-weight: bold;
-}
-#first-heading{
-    
-}
-.green{
-    color:hsl(128, 91%, 45%)
-}
-
-.large_font{
+  }
+  
+  #first-heading {
+    color: #FE4A49;
+    text-align: center;
+  }
+  
+  .green {
+    color: #009FB7;
+  }
+  
+  .large-font {
     font-size: 42px;
-}
-
-#navigation{
+  }
+  
+  #navigation {
     margin-top: 40px;
     margin-bottom: 60px;
-
-}
-
-
-
-p{
+  }
+  
+  p {
     color: #444444;
-}
-
-h1{
-    font-size:42px;
-    color: indigo;
-}
-
-h1.green{
-    color: red;
-}
-
-#first_heading{
-    color: red;
-}
-
-/* specificity siralamasi */
-/* inlin-style>#heading>h1.green>.green>h1 */
+  }
+  
+  h1 {
+    font-size: 42px;
+    color:indigo;
+  }
+  
+  h1 .green {
+    color: cadetblue;
+  }
+  
+  /* Dark Mode */
+  body.dark *{
+    color: rgb(255,255,255);
+  }
+  
+  body.dark {
+    background-color: #3A445D;
+  }
+  
+  body.dark h1 {
+    color: #ffffff !important;
+  }
+  
+  body.dark a {
+    color: #D4D2A5;
+  }
+  
+  body.dark p, body.dark ul {
+    opacity: 0.8;
+  }
+  
+  body.dark button {
+    color: black;
+  }
+  
